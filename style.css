@@ -28,7 +28,6 @@
     color: rgb(206, 206, 206);
     font-size: 3em;
     font-weight: 600;
-    direction: rtl;
     margin-right: 3px;
 }
 #buttons{
@@ -54,6 +53,11 @@
     border: 1px solid rgb(232, 230, 230);
     font-weight: 700;
     font-size: x-large;
+    transition: 0.1s ease;
+}
+#buttons button:active {
+    transform: scale(0.92);
+    background-color: #d0d0d0;
 }
 #buttons #equal{
     background-color: red;
